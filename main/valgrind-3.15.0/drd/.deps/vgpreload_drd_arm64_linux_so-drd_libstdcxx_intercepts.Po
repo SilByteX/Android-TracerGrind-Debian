@@ -1,0 +1,24 @@
+vgpreload_drd_arm64_linux_so-drd_libstdcxx_intercepts.o: \
+  drd_libstdcxx_intercepts.c drd_basics.h ../include/pub_tool_basics.h \
+  ../VEX/pub/libvex_basictypes.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/stdarg.h \
+  drd_clientreq.h drd.h ../include/valgrind.h \
+  ../include/pub_tool_redir.h ../config.h
+
+drd_basics.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/stdarg.h:
+
+drd_clientreq.h:
+
+drd.h:
+
+../include/valgrind.h:
+
+../include/pub_tool_redir.h:
+
+../config.h:

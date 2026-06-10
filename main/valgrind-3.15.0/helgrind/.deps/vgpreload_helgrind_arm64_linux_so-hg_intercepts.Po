@@ -1,0 +1,259 @@
+vgpreload_helgrind_arm64_linux_so-hg_intercepts.o: hg_intercepts.c \
+  ../include/pub_tool_basics.h ../VEX/pub/libvex_basictypes.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/stdarg.h \
+  ../include/pub_tool_redir.h ../config.h ../include/pub_tool_clreq.h \
+  ../include/valgrind.h helgrind.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdio.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/cdefs.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/versioning.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/api-level.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/ndk-version.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/types.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/stddef.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/__stddef_max_align_t.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/stdint.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdint.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/wchar_limits.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/types.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/types.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/types.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/int-ll64.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/bitsperlong.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/bitsperlong.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/posix_types.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/stddef.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/compiler_types.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/compiler.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/posix_types.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/posix_types.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/pthread_types.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/seek_constants.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/assert.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/errno.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/errno.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/errno.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/errno.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/errno-base.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/legacy_errno_inlines.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/pthread.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/limits.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/limits.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/float.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/limits.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/posix_limits.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sched.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/timespec.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/sched.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/time.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/time.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/time.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/time_types.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/select.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/signal.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/sigcontext.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/sve_context.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/signal_types.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/signal.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/signal.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/signal.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/signal-defs.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/siginfo.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/siginfo.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/ucontext.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/user.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/legacy_signal_inlines.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/xlocale.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/semaphore.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/fcntl.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/fadvise.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/falloc.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/fcntl.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/fcntl.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/fcntl.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/stat.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/uio.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/fcntl.h \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/lockf.h \
+  ../shared/vg_replace_strmem.c ../include/pub_tool_poolalloc.h \
+  ../include/pub_tool_hashtable.h ../include/pub_tool_tooliface.h \
+  ../include/pub_tool_errormgr.h ../include/pub_tool_execontext.h \
+  ../include/pub_tool_debuginfo.h ../include/pub_tool_xarray.h \
+  ../VEX/pub/libvex.h ../VEX/pub/libvex_ir.h
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/stdarg.h:
+
+../include/pub_tool_redir.h:
+
+../config.h:
+
+../include/pub_tool_clreq.h:
+
+../include/valgrind.h:
+
+helgrind.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdio.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/versioning.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/api-level.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/ndk-version.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/types.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/stddef.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/__stddef_max_align_t.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/stdint.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdint.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/wchar_limits.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/types.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/types.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/types.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/int-ll64.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/bitsperlong.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/compiler_types.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/posix_types.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/posix_types.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/pthread_types.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/seek_constants.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/assert.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/errno.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/errno.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/errno.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/errno.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/errno-base.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/legacy_errno_inlines.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/pthread.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/limits.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/limits.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/float.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/posix_limits.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sched.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/timespec.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/sched.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/time.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/time.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/time.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/time_types.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/select.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/signal.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/sigcontext.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/sve_context.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/signal_types.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/signal.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/signal.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/signal.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/signal-defs.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/siginfo.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/siginfo.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/ucontext.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/user.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/legacy_signal_inlines.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/xlocale.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/semaphore.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/fcntl.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/fadvise.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/falloc.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/fcntl.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/aarch64-linux-android/asm/fcntl.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/fcntl.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/stat.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/uio.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/fcntl.h:
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/lockf.h:
+
+../shared/vg_replace_strmem.c:
+
+../include/pub_tool_poolalloc.h:
+
+../include/pub_tool_hashtable.h:
+
+../include/pub_tool_tooliface.h:
+
+../include/pub_tool_errormgr.h:
+
+../include/pub_tool_execontext.h:
+
+../include/pub_tool_debuginfo.h:
+
+../include/pub_tool_xarray.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_ir.h:

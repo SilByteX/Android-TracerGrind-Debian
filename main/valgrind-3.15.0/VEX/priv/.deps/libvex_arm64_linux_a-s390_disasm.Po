@@ -1,0 +1,26 @@
+priv/libvex_arm64_linux_a-s390_disasm.o: priv/s390_disasm.c \
+  /home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/stdarg.h \
+  ../VEX/pub/libvex_basictypes.h priv/main_util.h \
+  ../VEX/pub/libvex_inner.h ../config.h priv/main_globals.h \
+  ../VEX/pub/libvex.h ../VEX/pub/libvex_ir.h priv/s390_defs.h \
+  priv/s390_disasm.h
+
+/home/hehongen/Documents/android-ndk-r21e/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/stdarg.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+priv/main_util.h:
+
+../VEX/pub/libvex_inner.h:
+
+../config.h:
+
+priv/main_globals.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_ir.h:
+
+priv/s390_defs.h:
+
+priv/s390_disasm.h:
